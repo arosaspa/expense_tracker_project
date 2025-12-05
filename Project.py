@@ -13,9 +13,7 @@ message = """\nWelcome the Expense Tracker Project\n
     """
 
 print(message)
-
 option = int(input(">> "))
-
 print(f"You selected option {option}.")
 
 if option == 1:
